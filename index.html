@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Демо Bootstrap</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Привет мир!</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+        </div>
+    </div>
+    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+        <a class="navbar-brand" href="#">Панель навигации</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">Первый</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">Второй</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">Выпадающий список</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#scrollspyHeading3">Третий</a></li>
+                    <li><a class="dropdown-item" href="#scrollspyHeading4">Четвертый</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#scrollspyHeading5">Пятый</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+        data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <h4 id="scrollspyHeading1">Первый заголовок</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste sint vel quis obcaecati excepturi incidunt
+            temporibus velit ad minima officiis voluptatem recusandae adipisci, odit voluptatum beatae voluptatibus
+            quaerat pariatur aspernatur! Veritatis provident delectus ex, sit inventore dolores fuga. Quod iste adipisci
+            mollitia odit veritatis. Dignissimos dolores praesentium, earum mollitia, recusandae voluptatem veritatis
+            tempore odio rem expedita, blanditiis quis. Omnis natus tempora enim nihil sit veritatis ipsum assumenda
+            pariatur animi. Fuga rerum qui obcaecati natus, alias nihil nostrum voluptatem repudiandae laboriosam magni
+            commodi vel maxime sequi sed doloribus optio maiores cum inventore vero. Architecto, ullam eveniet porro
+            incidunt possimus animi laboriosam?</p>
+        <h4 id="scrollspyHeading2">Второй заголовок</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus sunt, asperiores hic at, accusamus
+            autem vitae adipisci neque dolores, incidunt pariatur voluptatibus? Dolore tempora dicta natus, quod
+            reiciendis, doloremque culpa alias unde veniam, consequuntur ducimus magnam quis neque fugit minus deserunt
+            fugiat labore. Nesciunt culpa vero quae voluptates similique molestias! Quis eos est, ab distinctio
+            architecto officia nam atque dignissimos corrupti aperiam velit eaque, pariatur consequatur similique.
+            Minima fuga quaerat officia rem perferendis vitae? Quibusdam, saepe sequi quidem fugit voluptatibus
+            blanditiis id vero quaerat vitae, nobis consectetur eius explicabo optio, dignissimos assumenda temporibus
+            consequuntur magni ratione laudantium! Et, doloremque facere.</p>
+        <h4 id="scrollspyHeading3">Третий заголовок</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic doloremque provident laboriosam amet itaque rem
+            quasi explicabo minus, odio tempore. Inventore, veniam porro unde, officia voluptatum ullam corrupti placeat
+            quidem, labore iste cumque commodi suscipit laboriosam obcaecati. Harum cumque iusto atque dolorum? Quo
+            tempora debitis voluptatibus quibusdam eaque excepturi rerum nihil voluptas praesentium et mollitia libero
+            deleniti consectetur a harum veniam, laboriosam quaerat, sint quia iusto? Praesentium voluptatibus enim
+            nesciunt, nam dolore error ipsam vero sed facere libero blanditiis id accusamus sint nemo quas voluptate,
+            similique eaque velit dolores laborum alias. Sit nostrum officiis, eos deleniti sapiente fugiat laborum
+            animi.</p>
+        <h4 id="scrollspyHeading4">Четвертый заголовок</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nemo ea in eius nobis, minus similique magni
+            tenetur eligendi facere ut recusandae iste veritatis maiores ex, aliquid neque a corrupti, rerum fugiat
+            commodi est? Cum quaerat, vitae, quis cupiditate rem quo soluta sunt dolores quas voluptatum quibusdam
+            libero, commodi harum.</p>
+        <h4 id="scrollspyHeading5">Пятый заголовок</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto corporis ipsa illo fuga veniam et assumenda
+            inventore enim officia deleniti neque, deserunt quisquam quia rerum alias similique reprehenderit aut
+            consequuntur consequatur minus suscipit, laboriosam impedit! Dicta commodi dolor corporis voluptas,
+            exercitationem laudantium ipsum rerum sint consequatur quos architecto reprehenderit ratione?</p>
+    </div>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Переключатель навигации">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Каталог</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Выпадающий список
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Действие</a></li>
+                            <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Контанкты</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+                    <button class="btn btn-outline-success" type="submit">Поиск</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/0dbafa8816f851d78cbd682b49a1d6c8.jpg" class="d-block w-100" alt="mountains">
+            </div>
+            <div class="carousel-item">
+                <img src="img/5f589f7a2e22c_Flower_spots_in_Kanto_cover.jpg" class="d-block w-100" alt="flower">
+            </div>
+            <div class="carousel-item">
+                <img src="img/Tailor_made_tour_in_Vietnam_2.jpg" class="d-block w-100" alt="Vietnam">
+            </div>
+            <div class="carousel-item">
+                <img src="img/Trip_to_Morocco_from_Spain__Malaga__Tangier__Tetuan__Chaouen_.jpg" class="d-block w-100"
+                    alt="sea">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+        </button>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
